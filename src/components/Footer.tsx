@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
@@ -14,40 +15,20 @@ export function Footer() {
             <div>
               {" "}
               <Link
-                href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-primary dark:text-gray-100"
+                href="/"      
               >
                 <Image
                   src="/img/logo.svg"
                   alt="N"
                   width="32"
-                  height="32"
-                  className="w-8"
+                  height="20"
+                  className="w-60"
                 />
-                <span>Nextly</span>
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
-            </div>
-
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44"
-              >
-                <Image
-                  src="/img/vercel.svg"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
+            <div className="max-w-md text-primary dark:text-gray-400">
+            We create premium websites and visual content that reflect excellence. Our design approach is grounded in precision, modern minimalism, and intentional detail.
             </div>
           </div>
 
@@ -112,19 +93,10 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
-          <a href="https://web3templates.com/" target="_blank" rel="noopener">
-            Web3Templates.
-          </a>{" "}
-          Illustrations from{" "}
-          <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">
-            Glazestock
-          </a>
+        <div className="my-10 text-sm text-center text-primary dark:text-gray-400">
+          Copyright © {new Date().getFullYear()}. All Rights Reseverd
         </div>
       </Container>
-      {/* Do not remove this */}
-      <Backlink />
     </div>
   );
 }

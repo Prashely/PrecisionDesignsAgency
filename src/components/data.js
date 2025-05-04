@@ -17,40 +17,40 @@ const benefitOne = {
   bullets: [
     {
       title: "Unlimited designs",
-      desc: "Then explain the first point breifly in one or two lines.",
+      desc: "Request as many design projects as needed — no limits.",
       icon: <FaceSmileIcon />,
     },
     {
       title: "Unlimited revisions",
-      desc: "Here you can add the next benefit point.",
+      desc: "Revise until it aligns seamlessly with your vision.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Same-day delivery",
-      desc: "This will be your last bullet point in this section.",
+      title: "Priotised Turnaround",
+      desc: "Golden projects are always front of the line.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
+  title: "more benefits here",
   desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Website Maintenance",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Access to Creatives Director",
+      desc: "Direct collaboration with our Creative Director.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Access to Creatives Director",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Fixed Rate",
+      desc: "Premium designs with no unexpected costs.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Fixed Monthly Rate",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Support",
+      desc: "On call support for all your business needs.",
       icon: <SunIcon />,
     },
   ],

@@ -18,17 +18,14 @@ export const Navbar = () => {
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
         <Link href="/">
-          <span className="flex items-center space-x-2 text-2xl font-medium text-primary dark:text-gray-100">
-              <span>
-                <Image
+          <span >
+          <Image
                   src="/img/logo.svg"
                   width="32"
-                  alt="N"
+                  alt="Precision Designs Logo"
                   height="32"
-                  className="w-8"
+                  className="w-60"
                 />
-              </span>
-            <span>Nextly</span>
           </span>
         </Link>
 
