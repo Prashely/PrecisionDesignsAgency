@@ -5,7 +5,6 @@ import { Benefits } from "@/components/Benefits";
 import { DesignShowcase } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
-import { Cta } from "@/components/Cta";
 
 import { benefitOne, benefitTwo } from "@/components/data";
 export default function Home() {
@@ -16,17 +15,16 @@ export default function Home() {
         preTitle="renowned services"
         title=" Smart. Strategic. Beautifully Crafted."
       >
-      Blending strategy and modern minimalism to deliver work that’s both functional and refined. 
-      We don’t just design — we craft purposeful visuals that leave a lasting impact & grow businesses.
+        Blending strategy and modern minimalism to deliver work that’s both
+        functional and refined. We don’t just design — we craft purposeful
+        visuals that leave a lasting impact & grow businesses.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle
-        preTitle="recent projects"
-      >
-      <DesignShowcase />
+      <SectionTitle preTitle="recent projects">
+        <DesignShowcase />
       </SectionTitle>
 
       <SectionTitle
