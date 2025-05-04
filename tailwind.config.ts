@@ -10,7 +10,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class", // or 'media' or 'class'
+  //darkMode: "class", or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -20,7 +20,13 @@ const config: Config = {
       },
     },
     fontFamily: {
-      sans: ["Montserrat", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+      sans: [
+        "Montserrat",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+      ],
       montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
       helvetica: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
     },
