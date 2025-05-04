@@ -67,10 +67,10 @@ export const Hero = () => {
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-          <Link href="/">
+          <Link href="https://miimovies.com">
           <span >
           <Image
-                  src="/img/maporch.png"
+                  src="/img/brands/miimovies.svg"
                   width="32"
                   alt="Precision Designs Logo"
                   height="32"
@@ -78,7 +78,7 @@ export const Hero = () => {
                 />
           </span>
          </Link>
-         <Link href="/">
+         <Link href="https://capitalxfinance.com">
           <span >
           <Image
                   src="/img/brands/microsoft.svg"
@@ -89,7 +89,7 @@ export const Hero = () => {
                 />
           </span>
          </Link>
-         <Link href="/">
+         <Link href="https://prashely.com">
           <span >
           <Image
                   src="/img/brands/prashely.svg"
@@ -100,7 +100,7 @@ export const Hero = () => {
                 />
           </span>
          </Link>
-         <Link href="/">
+         <Link href="https://dlaminisibusiso.com">
           <span >
           <Image
                   src="/img/brands/sbu.svg"
