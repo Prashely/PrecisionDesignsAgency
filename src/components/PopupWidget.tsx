@@ -69,7 +69,7 @@ export function PopupWidget() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="absolute w-6 h-6 text-white"
+                  className="absolute w-6 h-6 text-primary"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -89,7 +89,7 @@ export function PopupWidget() {
                 enterFrom="opacity-0 rotate-45 scale-75"
                 leave="transition duration-100 transform ease"
                 leaveTo="opacity-0 rotate-45"
-                className="absolute w-6 h-6 text-white"
+                className="absolute w-6 h-6 text-primary"
                 as={"div"}
               >
                 <svg
@@ -119,8 +119,8 @@ export function PopupWidget() {
             >
               <DisclosurePanel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
                 <div className="flex flex-col items-center justify-center h-32 p-5 bg-primary">
-                  <h3 className="text-lg text-white">How can we help?</h3>
-                  <p className="text-white opacity-50">
+                  <h3 className="text-lg text-primary">How can we help?</h3>
+                  <p className="text-primary opacity-50">
                     We usually respond in a few hours
                   </p>
                 </div>
@@ -152,7 +152,7 @@ export function PopupWidget() {
                       <div className="mb-4">
                         <label
                           htmlFor="full_name"
-                          className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                          className="block mb-2 text-sm text-primary dark:text-black"
                         >
                           Full Name
                         </label>
@@ -164,7 +164,7 @@ export function PopupWidget() {
                             required: "Full name is required",
                             maxLength: 80,
                           })}
-                          className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
+                          className={`w-full px-3 py-2 text-primary placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                             errors.name
                               ? "border-red-600 focus:border-red-600 ring-red-100"
                               : "border-gray-300 focus:border-primary ring-primary"
@@ -180,7 +180,7 @@ export function PopupWidget() {
                       <div className="mb-4">
                         <label
                           htmlFor="email"
-                          className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                          className="block mb-2 text-sm text-primary dark:text-black"
                         >
                           Email Address
                         </label>
@@ -195,7 +195,7 @@ export function PopupWidget() {
                             },
                           })}
                           placeholder="you@company.com"
-                          className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
+                          className={`w-full px-3 py-2 text-primary placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                             errors.email
                               ? "border-red-600 focus:border-red-600 ring-red-100"
                               : "border-gray-300 focus:border-primary ring-primary"
@@ -212,7 +212,7 @@ export function PopupWidget() {
                       <div className="mb-4">
                         <label
                           htmlFor="message"
-                          className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                          className="block mb-2 text-sm text-primary dark:text-black"
                         >
                           Your Message
                         </label>
@@ -224,7 +224,7 @@ export function PopupWidget() {
                             required: "Enter your Message",
                           })}
                           placeholder="Your Message"
-                          className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md h-28 focus:outline-none focus:ring   ${
+                          className={`w-full px-3 py-2 text-primary placeholder-gray-300 bg-white border border-gray-300 rounded-md h-28 focus:outline-none focus:ring   ${
                             errors.message
                               ? "border-red-600 focus:border-red-600 ring-red-100"
                               : "border-gray-300 focus:border-primary ring-primary"
@@ -240,11 +240,11 @@ export function PopupWidget() {
                       <div className="mb-3">
                         <button
                           type="submit"
-                          className="w-full px-3 py-4 text-white bg-primary rounded-md focus:bg-primary focus:outline-none"
+                          className="w-full px-3 py-4 text-primary bg-primary rounded-md focus:bg-primary focus:outline-none"
                         >
                           {isSubmitting ? (
                             <svg
-                              className="w-5 h-5 mx-auto text-white animate-spin"
+                              className="w-5 h-5 mx-auto text-primary animate-spin"
                               xmlns="http://www.w3.org/2000/svg"
                               fill="none"
                               viewBox="0 0 24 24"
@@ -268,15 +268,12 @@ export function PopupWidget() {
                           )}
                         </button>
                       </div>
-                      <p
-                        className="text-xs text-center text-gray-400"
-                        id="result"
-                      >
+                      <p className="text-xs text-center text-black" id="result">
                         <span>
                           Powered by{" "}
                           <a
                             href="https://Web3Forms.com"
-                            className="text-gray-600"
+                            className="text-primary"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -288,7 +285,7 @@ export function PopupWidget() {
                   )}
 
                   {isSubmitSuccessful && isSuccess && (
-                    <div className="flex flex-col items-center justify-center h-full text-center text-white rounded-md">
+                    <div className="flex flex-col items-center justify-center h-full text-center text-primary rounded-md">
                       <svg
                         width="60"
                         height="60"
@@ -306,7 +303,7 @@ export function PopupWidget() {
                       <h3 className="py-5 text-xl text-green-500">
                         Message sent successfully
                       </h3>
-                      <p className="text-gray-700 md:px-3">{Message}</p>
+                      <p className="text-primary md:px-3">{Message}</p>
                       <button
                         className="mt-6 text-primary focus:outline-none"
                         onClick={() => reset()}
@@ -317,7 +314,7 @@ export function PopupWidget() {
                   )}
 
                   {isSubmitSuccessful && !isSuccess && (
-                    <div className="flex flex-col items-center justify-center h-full text-center text-white rounded-md">
+                    <div className="flex flex-col items-center justify-center h-full text-center text-primary rounded-md">
                       <svg
                         width="60"
                         height="60"
@@ -336,7 +333,7 @@ export function PopupWidget() {
                       <h3 className="text-xl text-red-400 py-7">
                         Oops, Something went wrong!
                       </h3>
-                      <p className="text-gray-700 md:px-3">{Message}</p>
+                      <p className="text-primary md:px-3">{Message}</p>
                       <button
                         className="mt-6 text-primary focus:outline-none"
                         onClick={() => reset()}

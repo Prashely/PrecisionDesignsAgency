@@ -9,10 +9,10 @@ export const Hero = () => {
       <Container className="flex flex-wrap">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="mb-8">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-800 lg:text-4xl lg:leading-none xl:text-6xl xl:leading-tight dark:text-white">
+            <h1 className="text-4xl font-bold tracking-tight text-primary lg:text-4xl lg:leading-none xl:text-6xl xl:leading-tight">
               Specializing in clean, modern web and graphic design.
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="py-5 text-xl leading-normal text-primary lg:text-xl xl:text-2xl">
               We create premium websites and visual content that reflect
               excellence. Our design approach is grounded in precision, modern
               minimalism, and intentional detail.
@@ -31,7 +31,7 @@ export const Hero = () => {
                 href="https://github.com/web3templates/nextly-template/"
                 target="_blank"
                 rel="noopener"
-                className="flex items-center space-x-2 text-primary dark:text-gray-400"
+                className="flex items-center space-x-2 text-primary"
               >
                 <svg
                   role="img"
@@ -66,7 +66,7 @@ export const Hero = () => {
       </Container>
       <Container>
         <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-black dark:text-white mt-5 lg:mt-0">
+          <div className="text-xl text-center text-primary mt-5 lg:mt-0">
             Trusted by <span className="text-primary">50+</span> Clients
             Nationwide
           </div>

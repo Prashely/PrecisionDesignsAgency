@@ -4,13 +4,7 @@ import Image from "next/image";
 // import ThemeChanger from "./DarkSwitch"; // Commented out the import
 
 export const Navbar = () => {
-  const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
-  ];
+  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
 
   return (
     <div className="w-full">
@@ -44,4 +38,3 @@ export const Navbar = () => {
     </div>
   );
 };
-

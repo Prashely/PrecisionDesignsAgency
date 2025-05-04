@@ -14,9 +14,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link
-                href="/"      
-              >
+              <Link href="/">
                 <Image
                   src="/img/logo.svg"
                   alt="N"
@@ -27,39 +25,43 @@ export function Footer() {
               </Link>
             </div>
 
-            <div className="max-w-md text-primary dark:text-gray-400">
-            We create premium websites and visual content that reflect excellence. Our design approach is grounded in precision, modern minimalism, and intentional detail.
+            <div className="max-w-md text-primary dark:text-black">
+              We create premium websites and visual content that reflect
+              excellence. Our design approach is grounded in precision, modern
+              minimalism, and intentional detail.
             </div>
           </div>
           <div className="">
             <div className="font-bold">Get in touch</div>
-            <div className="text-sm font-medium text-gray-700 dark:text-gray-300">
-      <a href="tel:0645011986" className="hover:text-primary transition block">
-      064 501 1986
-      </a>
-      <a
-        href="https://wa.me/27645011986"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:text-primary transition block"
-      >
-      064 501 1986
-      </a>
-      <a
-        href="mailto:info@precisiondesignsagency.com"
-        className="hover:text-primary transition block"
-      >
-      info@precisiondesignsagency.com
-      </a>
-    </div>
+            <div className="text-sm font-medium text-primary dark:text-black">
+              <a
+                href="tel:0645011986"
+                className="hover:text-primary transition block"
+              >
+                064 501 1986
+              </a>
+              <a
+                href="https://wa.me/27645011986"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary transition block"
+              >
+                064 501 1986
+              </a>
+              <a
+                href="mailto:info@precisiondesignsagency.com"
+                className="hover:text-primary transition block"
+              >
+                info@precisiondesignsagency.com
+              </a>
+            </div>
           </div>
         </div>
 
-        <div className="my-10 text-sm text-center text-primary dark:text-gray-400">
+        <div className="my-10 text-sm text-center text-primary dark:text-black">
           Copyright © {new Date().getFullYear()}. All Rights Reseverd
         </div>
       </Container>
     </div>
   );
 }
-

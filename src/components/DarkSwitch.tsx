@@ -13,14 +13,14 @@ const ThemeChanger = () => {
   }, [theme]);
 
   const toggleTheme = () => {
-    const newTheme = theme === "light" ? "light" : "light";
+    const newTheme = theme === "dark" ? "dark" : "dark";
     setTheme(newTheme);
   };
 
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 text-gray-500 rounded-md hover:text-primary focus:outline-none"
+      className="p-2 text-primary rounded-md hover:text-primary focus:outline-none"
     >
       {theme === "light" ? "Switch to Dark Mode" : "Switch to Light Mode"}
     </button>
