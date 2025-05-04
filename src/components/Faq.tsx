@@ -36,21 +36,21 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Do you work with clients outside South Africa?",
+    answer: "Absolutely, we proudly work with clients across the globe. Our fully remote process ensures smooth communication, quick turnarounds, and high-end design — no matter where you're located.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Do you offer revisions?",
+    answer: "Of course, we offer a maximum of 3 revisions per project, However our golden clietnts get to enjoy unlimited revisions.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "How long does a project usually take?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Our turnaround time ranges from 2 to 14 days, depending on the scope of the project. If you need faster delivery, we offer same-day or next-day service for an additional 15% rush fee.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Do you offer refunds? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "We do not offer refunds once a project has started, as time and creative work are immediately invested.",
   },
 ];

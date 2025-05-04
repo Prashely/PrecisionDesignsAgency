@@ -7,8 +7,8 @@ import { Footer } from "@/components/Footer";
 import { PopupWidget } from "@/components/PopupWidget";
 
 export const metadata: Metadata = {
-  title: "Precision Designa",
-  description: "Top-tier branding, web & graphic design services.",
+  title: "Precision Designs Agency",
+  description: "Your last stop for all your creative needs.",
 };
 
 export default function RootLayout({
