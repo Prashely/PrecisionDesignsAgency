@@ -15,11 +15,14 @@ const config: Config = {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        primary: "#0a1d37",
+        accent: "#bc9c22",
       },
     },
     fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
-      stock: [defaultTheme.fontFamily.sans],
+      sans: ["Montserrat", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+      montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
+      helvetica: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
     },
   },
   variants: {
