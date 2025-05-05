@@ -27,8 +27,8 @@ export const Navbar = () => {
           {/* <ThemeChanger /> */}
           <div className="hidden mr-3 lg:flex nav__item">
             <Link
-              href="/"
-              className="px-6 py-2 text-white bg-primary rounded-md md:ml-5"
+              href="https://wa.me/27645011986"
+              className="px-8 py-3 text-white font-medium bg-primary rounded-md md:ml-5"
             >
               Get Started
             </Link>

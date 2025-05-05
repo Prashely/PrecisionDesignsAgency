@@ -13,6 +13,14 @@ export function DesignShowcase() {
 
   return (
     <div className="my-20 ">
+      <a
+        href="https://wa.me/27645011986"
+        target="_blank"
+        rel="noopener"
+        className="flex max-w-xl items-center justify-center px-8 py-4 text-lg font-bold mx-auto text-center text-primary bg-accent rounded-md my-10 hover:bg-accent/80 transition duration-300 ease-in-out"
+      >
+        Learn More
+      </a>
       <h3 className="text-2xl font-bold text-center text-accent">
         recent projects
       </h3>
