@@ -15,8 +15,8 @@ export default function Home() {
         preTitle="renowned services"
         title=" Smart. Strategic. Beautifully Crafted."
       >
-        Blending strategy and modern minimalism to deliver work that’s both
-        functional and refined. We don’t just design — we craft purposeful
+        Blending strategy and modern minimalism to deliver work that is both
+        functional and refined. We do not just design — we craft purposeful
         visuals that leave a lasting impact & grow businesses.
       </SectionTitle>
 
@@ -26,8 +26,8 @@ export default function Home() {
       <DesignShowcase />
 
       <SectionTitle preTitle="Testimonials" title="Here's what our clients say">
-        If elegance and simplicity are weren't the goal of this website we would
-        have added more testimonials.{" "}
+        If elegance and simplicity are were not the goal of this website we
+        would have added more testimonials.{" "}
         <span className="text-accent font-helvetica font-light">
           But we are not here to brag.
         </span>

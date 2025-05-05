@@ -16,7 +16,7 @@ export default function TermsAndConditions() {
         </h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            No work will commence without the client's{" "}
+            No work will commence without the client&apos;s{" "}
             <span className="text-accent font-medium">
               Proof of Payment (POP)
             </span>
@@ -138,11 +138,11 @@ export default function TermsAndConditions() {
         </h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            Final work becomes the client’s property upon{" "}
+            Final work becomes the client&apos;s property upon{" "}
             <span className="text-accent font-medium">full payment</span>.
           </li>
           <li>
-            Precision Designa may use completed work for{" "}
+            Precision Designs Agency may use completed work for{" "}
             <span className="text-accent font-medium">
               portfolio or marketing
             </span>{" "}
