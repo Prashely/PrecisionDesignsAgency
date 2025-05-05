@@ -11,7 +11,7 @@ export const Testimonials = () => {
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 mb-10">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-primary px-14 rounded-2xl py-14 text-white">
+          <div className="flex flex-col justify-between w-full h-full bg-primary px-6 lg:px-14 rounded-2xl py-14 text-white">
             <p className="text-2xl leading-normal text-white">
               ...they always get work done and they seems to always know of a
               more
@@ -26,7 +26,7 @@ export const Testimonials = () => {
           </div>
         </div>
         <div className="text-white">
-          <div className="flex flex-col justify-between w-full h-full px-14 rounded-2xl py-14 bg-primary">
+          <div className="flex flex-col justify-between w-full h-full px-6 lg:px-14 rounded-2xl py-14 bg-primary">
             <p className="text-2xl leading-normal text-white">
               By far my favourite <Mark>design agency</Mark>
               exceptional and super quick. Great partnership...
@@ -40,7 +40,7 @@ export const Testimonials = () => {
           </div>
         </div>
         <div className="text-white">
-          <div className="flex flex-col justify-between w-full h-full px-14 rounded-2xl py-14 bg-primary">
+          <div className="flex flex-col justify-between w-full h-full px-6 lg:px-14 rounded-2xl py-14 bg-primary">
             <p className="text-2xl leading-normal text-white">
               ..it was nice to work with Precision, They are good in
               <Mark>communication and fair</Mark> in their pricing...
