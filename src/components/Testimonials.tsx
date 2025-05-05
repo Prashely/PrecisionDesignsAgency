@@ -2,53 +2,54 @@ import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
 
-import userOneImg from "../../public/img/user1.jpg";
+import userOneImg from "../../public/img/user1.png";
 import userTwoImg from "../../public/img/user2.jpg";
-import userThreeImg from "../../public/img/user3.jpg";
+import userThreeImg from "../../public/img/user3.png";
 
 export const Testimonials = () => {
   return (
     <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
+      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 mb-10">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-primary">
-            <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+          <div className="flex flex-col justify-between w-full h-full bg-primary px-14 rounded-2xl py-14 text-white">
+            <p className="text-2xl leading-normal text-white">
+              ...they always get work done and they seems to always know of a
+              more
+              <Mark>affordable solution</Mark>...
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Sibusiso Dlamini"
+              title="Cryptocurrency Mogul"
             />
           </div>
         </div>
-        <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-primary">
-            <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+        <div className="text-white">
+          <div className="flex flex-col justify-between w-full h-full px-14 rounded-2xl py-14 bg-primary">
+            <p className="text-2xl leading-normal text-white">
+              By far my favourite <Mark>design agency</Mark>
+              exceptional and super quick. Great partnership...
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Jonas Senoamadi"
+              title="Founder at EcoSuitors"
             />
           </div>
         </div>
-        <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-primary">
-            <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+        <div className="text-white">
+          <div className="flex flex-col justify-between w-full h-full px-14 rounded-2xl py-14 bg-primary">
+            <p className="text-2xl leading-normal text-white">
+              ..it was nice to work with Precision, They are good in
+              <Mark>communication and fair</Mark> in their pricing...
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Koketso"
+              title="Co-founder of Shoe Store"
             />
           </div>
         </div>

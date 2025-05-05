@@ -12,20 +12,24 @@ export function DesignShowcase() {
   ];
 
   return (
-    <Container>
-      <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
+    <div className="my-20">
+      <h3 className="text-2xl font-bold text-center text-accent">
+        recent projects
+      </h3>
+      <div className="max-w-6xl mx-auto grid grid-cols-1 gap-5 mt-10 md:grid-cols-3">
         {designs.map((design, index) => (
-          <span key={index}>
+          <div key={index} className="relative group max-w-6xl">
+            {/* Design Image */}
             <Image
               src={design.src}
-              width={160}
-              height={160}
+              width={260}
+              height={260}
               alt={design.alt}
-              className="w-40"
+              className="w-full h-auto rounded-xl object-cover group-hover:zoom-in transition-transform duration-300 ease-in-out"
             />
-          </span>
+          </div>
         ))}
       </div>
-    </Container>
+    </div>
   );
 }

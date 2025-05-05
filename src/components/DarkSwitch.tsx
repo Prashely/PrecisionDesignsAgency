@@ -13,7 +13,7 @@ const ThemeChanger = () => {
   }, [theme]);
 
   const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "dark" : "dark";
+    const newTheme = theme === "dark" ? "light" : "light";
     setTheme(newTheme);
   };
 

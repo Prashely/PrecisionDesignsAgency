@@ -23,23 +23,28 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle preTitle="recent projects">
-        <DesignShowcase />
-      </SectionTitle>
+      <DesignShowcase />
 
-      <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
-      >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+      <SectionTitle preTitle="Testimonials" title="Here's what our clients say">
+        If elegance and simplicity are weren't the goal of this website we would
+        have added more testimonials.{" "}
+        <span className="text-accent font-helvetica font-light">
+          But we are not here to brag.
+        </span>
       </SectionTitle>
 
       <Testimonials />
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        A few common questions we get asked about our services. If you have any
+        other questions, feel free to reach out to us
+        <a
+          href="https://wa.me/27645011986"
+          className="ml-1 text-accent underline underline-offset-2 hover:text-accent/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        >
+          here
+        </a>
+        .
       </SectionTitle>
 
       <Faq />
