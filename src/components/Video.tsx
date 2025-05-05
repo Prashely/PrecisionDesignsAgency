@@ -12,7 +12,7 @@ export function DesignShowcase() {
   ];
 
   return (
-    <div className="my-20">
+    <div className="my-20 ">
       <h3 className="text-2xl font-bold text-center text-accent">
         recent projects
       </h3>
