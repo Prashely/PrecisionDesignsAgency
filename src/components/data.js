@@ -7,8 +7,8 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/benefit-one.svg";
+import benefitTwoImg from "../../public/img/benefit-two.svg";
 
 const benefitOne = {
   title: "The Golden Package",
@@ -34,8 +34,8 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "more more benefits",
+  desc: "Not only do you get limitless designs with fast turnarounds — you also get fixed rates that make it easy to budget your business properly, without any unexpected design costs.",
   image: benefitTwoImg,
   bullets: [
     {
@@ -56,5 +56,4 @@ const benefitTwo = {
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
