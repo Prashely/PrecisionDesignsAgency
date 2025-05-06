@@ -73,10 +73,10 @@ export default function RootLayout({
       </head>
       <body>
         <ThemeProvider attribute="class">
-          <Analytics />
           <Navbar />
           <main>{children}</main>
           <Footer />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
