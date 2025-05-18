@@ -96,6 +96,11 @@ export const Hero = () => {
               </span>
             </Link>
           </div>
+          {/* 
+          <div className="flex items-center justify-center text-accent tex-center underline underline-offset-4">
+            <Link href="/projects">More</Link>
+          </div>
+          */}
         </div>
       </Container>
     </>
