@@ -39,7 +39,7 @@ export default function Home() {
         A few common questions we get asked about our services. If you have any
         other questions, feel free to reach out to us
         <a
-          href="https://wa.me/27645011986"
+          href="https://wa.me/27683928066"
           className="ml-1 text-accent underline underline-offset-2 hover:text-accent/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
           here

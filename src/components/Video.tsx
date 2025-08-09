@@ -14,7 +14,7 @@ export function DesignShowcase() {
   return (
     <div className="my-20 ">
       <a
-        href="https://wa.me/27645011986?text=Hello%2C%20I'm%20interested%20in%20your%20Golden%20Package%20Please%20elaborate%20how%20it%works."
+        href="https://wa.me/27683928066?text=Hello%2C%20I'm%20interested%20in%20your%20Golden%20Package%20Please%20elaborate%20how%20it%works."
         target="_blank"
         rel="noopener"
         className="flex max-w-xl items-center justify-center px-8 py-4 text-lg font-bold mx-auto text-center text-primary bg-accent rounded-md my-10 hover:bg-accent/80 transition duration-300 ease-in-out"

@@ -20,7 +20,7 @@ export const Hero = () => {
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="https://wa.me/27645011986"
+                href="https://wa.me/27683928066"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-bold text-center text-primary bg-accent rounded-md "

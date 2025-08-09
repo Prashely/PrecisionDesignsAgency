@@ -33,7 +33,7 @@ export function Footer() {
             </h3>
             <div className="flex flex-col gap-3 text-lg font-medium text-primary dark:text-black">
               {/* Phone */}
-              <Link href="tel:0645011986" className="flex items-center gap-3">
+              <Link href="tel:0683928066" className="flex items-center gap-3">
                 <Image
                   src="/img/icons/call.svg"
                   width={24}
@@ -42,13 +42,13 @@ export function Footer() {
                   className="w-6 h-6"
                 />
                 <span className="hover:text-accent ease-in-out duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accen">
-                  064 501 1986
+                  068 392 8066
                 </span>
               </Link>
 
               {/* WhatsApp */}
               <Link
-                href="https://wa.me/27645011986"
+                href="https://wa.me/27683928066"
                 target="_blank"
                 className="flex items-center gap-3"
               >
@@ -60,7 +60,7 @@ export function Footer() {
                   className="w-6 h-6"
                 />
                 <span className="hover:text-accent ease-in-out duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accen">
-                  064 501 1986
+                  068 392 8066
                 </span>
               </Link>
 
