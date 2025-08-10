@@ -17,7 +17,7 @@ export const Faq = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-primary bg-accent/70 rounded-lg  hover:bg-accent/85 focus:outline-none focus-visible:ring focus-visible:ring-primary focus-visible:ring-opacity-75 dark:bg-white dark:text-black">
+                  <DisclosureButton className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-primary bg-accent/70 rounded-lg dark:hover:bg-accent/85  hover:bg-accent/85 focus:outline-none focus-visible:ring focus-visible:ring-primary focus-visible:ring-opacity-75 dark:bg-accent/70 dark:text-primary">
                     <span>{item.question}</span>
                     <ChevronUpIcon
                       className={`${
