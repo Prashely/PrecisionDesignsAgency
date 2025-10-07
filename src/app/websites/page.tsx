@@ -11,7 +11,7 @@ const ProjectsPage: React.FC = () => {
         <div className="p-2 bg-white rounded">
           <PortfolioItem
             image="/brands/1.png"
-            label="MiiMovies"
+            label="MiiMoviest"
             href="https://miimovies.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -22,8 +22,8 @@ const ProjectsPage: React.FC = () => {
             image="/brands/prashely.svg"
             label="Prashely"
             href="https://www.prashely.co.za/"
-            target="_blank"
             rel="noopener noreferrer"
+            target={""}
           />
         </div>
         <div className="p-2 bg-white rounded">
@@ -56,7 +56,7 @@ const ProjectsPage: React.FC = () => {
         <div className="p-2 bg-white rounded">
           <PortfolioItem
             image="/brands/vlogo.png"
-            label="Vhugala Ngwana"
+            label="Vhugala Ngwana "
             href="https://vhugalagoodwillngwana.co.za/"
             target="_blank"
             rel="noopener noreferrer"
@@ -64,9 +64,18 @@ const ProjectsPage: React.FC = () => {
         </div>
         <div className="p-2 bg-white rounded">
           <PortfolioItem
-            image="/brands/6.png"
-            label="Vustar's Kitchen"
-            href="https://sites.google.com/view/vustars-kitchen/home"
+            image="/brands/kumba.png"
+            label="Kumba Engineering & Projects"
+            href="https://kumbaengineerings.co.za/"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+        </div>
+        <div className="p-2 bg-white rounded">
+          <PortfolioItem
+            image="/brands/maporch.png"
+            label="Maporch Enterprise"
+            href="https://maporchenterprise.co.za/"
             target="_blank"
             rel="noopener noreferrer"
           />
